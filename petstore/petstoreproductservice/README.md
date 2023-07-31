@@ -29,7 +29,7 @@ Test endpoints:
 
 GET Request for service info (No headers needed)
 
-```http://localhost:8082/petstoreprpductservice/v2/product/info```
+```http://localhost:8082/petstoreproductservice/v2/product/info```
 
 GET request for Pets (Accept: application/json and Content-Type: application/json headers needed)
 
