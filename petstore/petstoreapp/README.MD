@@ -1,6 +1,6 @@
 PetStoreApp is the front facing Java Spring Boot Web Application used in the Azure Pet Store Reference Guide.
 
-You are also welcome and encouraged to build/deploy it outside of the Azure Pet Store Reference Guide, perhaps on your local developement machine just using Docker in Linux containers mode.
+You are also welcome and encouraged to build/deploy it outside of the Azure Pet Store Reference Guide, perhaps on your local development machine just using Docker in Linux containers mode.
 
 Build the Spring Boot Jar and Docker Image
 
@@ -10,7 +10,7 @@ Run the Docker Image. Note this example instructs Spring Boot to run on any port
 
 ```docker run --rm --name petstoreapp -p 8080:8080 -e PETSTOREAPP_SERVER_PORT=8080 petstoreapp:latest```
 
-Other optional aruments that you can specify to do certain things that get covered in the Azure Pet Store Reference Guide(s) like:
+Other optional arguments that you can specify to do certain things that get covered in the Azure Pet Store Reference Guide(s) like:
 
 - enable APIM Management and pass along a subscription key in the REST calls (empty and disabled by default, you'll want to uncomment the property in azure-cloud\petstore\petstoreapp\src\main\resources\application.yml
 
