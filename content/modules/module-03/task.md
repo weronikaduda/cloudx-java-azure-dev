@@ -1,4 +1,4 @@
-# Module 3: App Service
+# Module 3: App Services
 
 ## Task
 
@@ -19,6 +19,7 @@ The source code is available [here](../../../petstore).
 4. Verify the scalability by testing with tools like k6 to generate a load on the Public APIs.
 5. Set up deployment slots for the Web project (PetStoreApp).
 6. Configure Traffic Manager to direct traffic to the two Web App Services.
+7. (Optional) Utilize Azure CLI to automate resource deployment.
 
 >**IMPORTANT:** Avoid using Kubernetes for this course, as it is not included in the curriculum and could potentially lead to unnecessary expenses.
 
@@ -40,11 +41,57 @@ The source code is available [here](../../../petstore).
 
 <img src="images/scheme.png" width="450" style="margin: 20px 0; display: inline-block;"/>
 
+<hr>
+
+**Consider providing the following screenshots as evidence of your task execution:**
+
+1. *Set Up Azure Resources*
+   - Screenshot of the Azure portal displaying the creation of the resource group for the PetStoreApp.
+   - Screenshot of the successful creation of the Azure Container Registry (ACR).
+   - Screenshots documenting the Docker image build and push process to the ACR.
+
+2. *Deploy Services to Azure App Services*
+   - Screenshots of the Azure portal:
+      - Creation of App Service Plans for PetStoreApp (Web) and Public API Services.
+      - Deployment of PetStoreApp (Web) to two different regions.
+      - Configuration of environment variables for services communication.
+      - Successful navigation between pages without errors.
+
+3. *Configure Auto-Scaling*
+   - Screenshots of the Azure portal:
+      - Configuration of rules-based autoscaling for public API services.
+      - Setup of custom autoscale settings, including CPU usage thresholds.
+      - Verification of autoscaling settings and rules.
+
+4. *Test Autoscaling using k6 Tool*
+   - Screenshots of the k6 tool in use for testing autoscaling.
+   - Screenshots of Swagger endpoints utilized for testing autoscaling.
+
+5. *Set Up Deployment Slots for PetStoreApp*
+   - Screenshots of the Azure portal:
+      - Creation of a deployment slot for PetStoreApp.
+      - Configuration of slot settings, including continuous deployment.
+      - Successful push of an updated Docker image to the Azure Container Registry.
+      - Testing of the deployment slot and verification of changes.
+      - Screenshot of initiating the slot swap process.
+
+6. *Configure Traffic Manager*
+   - Screenshots of the Azure portal:
+      - Creation of a Traffic Manager profile.
+      - Addition of endpoints representing different PetStoreApp instances.
+      - Configuration of health checks for endpoint availability.
+      - Use of Traffic Manager URL to access the application.
+      - Testing of main application features through the Traffic Manager URL.
+
+7. A screenshot showing the list of Azure resources that correspond to the diagram.
+
+<hr>
+
 <div style="border: 1px solid #ccc; background-color: #eee;">
   <ul>
     <li>When presenting the results of the practical tasks, please <a href="../common/presenting-results/presenting-results.md">follow these guidelines</a>.</li>
-    <li>When you have completed the task, attach the screenshot to the "Result" field, and update the status to "Done."</li>
-    <li>Delete resources.</li>
+    <li>When you have completed the task, attach the file(s) to the "Result" field, provide a link to the updated Pet Store solution in a public Git repository, and update the status to "Done."</li>
+    <li>Delete unnecessary resources.</li>
   </ul>
 </div>
 <hr>

@@ -27,6 +27,7 @@ throw new Exception("Cannot move further");
 9. Redeploy the service and check the logs in Application Insights.
 10. Use a Kusto query to count the number of exceptions containing the text `Cannot move further` from the last hour.
 11. Examine the error in more detail by navigating to the Failures Tab in Application Insights and retrieving the stack trace.
+12. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Definition of Done:**
 
@@ -36,11 +37,58 @@ throw new Exception("Cannot move further");
 
 <img src="images/scheme.png" width="450" style="margin: 20px 0; display: inline-block;"/>
 
+<hr>
+
+**Consider providing the following screenshots as evidence of your task execution:**
+
+1. *Create an Instance of Application Insights*
+   - Screenshot showing the creation of an Application Insights instance in the Azure portal.
+
+2. *Enable Connection to Application Insights*
+   - Screenshot demonstrating integration with Application Insights using the Spring Boot starter.
+   - Screenshots of the deployed PetStore services with enabled Application Insights connections.
+
+3. *Browse the Pet Store Website*
+   - Screenshots capturing the process of adding multiple products to the shopping cart on the Pet Store website.
+
+4. *Check Application Insights*
+   - Screenshots of the Application Insights dashboard:
+      - Overview tab displaying incoming requests and failures.
+      - Live metrics tab displaying real-time metrics.
+      - Transaction search results.
+      - Performance metrics relevant to the PetStore services.
+
+5. *Implement Changes in the Code*
+   - Screenshot of the added custom metric in `PetStoreServiceImpl.getProducts()`.
+   - Screenshot showing added logging for the number of returned items.
+   - Screenshots of the deployed PetStore services with implemented code changes.
+
+6. *Examine Logs and Custom Events*
+   - Screenshots of Application Insights displaying logged events and custom metrics.
+
+7. *Use Kusto Query to Filter Logs*
+   - Screenshot of a Kusto query filtering logs by the current session ID.
+
+8. *Introduce an Error in the Code*
+   - Screenshot of the code with the introduced error line.
+
+9. *Redeploy Service and Check Logs*
+   - Screenshots of the deployed PetStore services with the introduced error.
+   - Screenshots of Application Insights displaying logs related to the error.
+
+10. *Use Kusto Query to Count Exceptions*
+   - Screenshot of a Kusto query counting exceptions with specific error messages.
+
+11. *Examine Error in Detail*
+   - Screenshot of the "Failures" tab in Application Insights displaying the stack trace of the error.
+
+<hr>
+
 <div style="border: 1px solid #ccc; background-color: #eee;">
   <ul>
     <li>When presenting the results of the practical tasks, please <a href="../common/presenting-results/presenting-results.md">follow these guidelines</a>.</li>
-    <li>When you have completed the task, attach the screenshot to the "Result" field, and update the status to "Done."</li>
-    <li>Delete resources.</li>
+    <li>When you have completed the task, attach the file(s) to the "Result" field, provide a link to the updated Pet Store solution in a public Git repository, and update the status to "Done."</li>
+    <li>Delete unnecessary resources.</li>
   </ul>
 </div>
 <hr>

@@ -1,4 +1,4 @@
-# Step-by-Step Guide for Module 3 (App Service)
+# Step-by-Step Guide for Module 3 (App Services)
 
 <!-- TOC -->
   * [Step 0: Prerequisites](#step-0-prerequisites)
@@ -87,6 +87,8 @@ After logging in, you can use the Azure portal to create, manage, and monitor yo
 
 ## Step 2: Build and Push Docker Images
 
+> **NOTE**: As an alternative to the approach outlined in Step 2, you may want to consider utilizing CI/CD in conjunction with Azure Container Registry and GitHub Actions (see Module 2).
+
 > Docker is a platform that allows you to create, deploy, and manage applications in lightweight, isolated containers. A Docker image is a self-contained package containing an application and its dependencies, serving as the blueprint for creating and running Docker containers. The Dockerfile contains instructions for building a Docker image.
 
 
@@ -163,7 +165,7 @@ After logging in, you can use the Azure portal to create, manage, and monitor yo
 
 ## Step 3: Deploy Services to Azure App Services
 
->Azure App Service is a platform-as-a-service (PaaS) offering from Microsoft Azure that enables you to build, deploy, and manage web applications and APIs without the complexities of managing underlying infrastructure. With Azure App Service, you can focus on your code and application logic while Azure takes care of the infrastructure, scaling, security, and other operational aspects.
+>Azure App Services is a platform-as-a-service (PaaS) offering from Microsoft Azure that enables you to build, deploy, and manage web applications and APIs without the complexities of managing underlying infrastructure. With Azure App Services, you can focus on your code and application logic while Azure takes care of the infrastructure, scaling, security, and other operational aspects.
 
 In total, you would need:
 - 2 App Service Plans for PetStoreApp (Web) in two different regions.

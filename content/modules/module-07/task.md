@@ -15,6 +15,7 @@ Azure Key Vault is a service that offers centralized secrets management, grantin
 5. Obtain the unique secret URI associated with the stored database connection string.
 6. Update App Service's application settings to include the Azure Key Vault reference syntax.
 7. Reference the stored secret URI in your app's settings to securely access the database connection string.
+8. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Definition of Done:**
 
@@ -27,11 +28,26 @@ Azure Key Vault is a service that offers centralized secrets management, grantin
 
 <img src="images/scheme.png" width="550" style="margin: 20px 0; display: inline-block;"/>
 
+<hr>
+
+**Consider providing the following screenshots as evidence of your task execution:**
+
+- Screenshots displaying the created Key Vault instance.
+- Screenshots illustrating the DB connection string stored as a secret in the Key Vault.
+- Screenshots showing the enabled managed identity for the App Service.
+- Screenshots highlighting the created Key Vault access policy for the App Service's managed identity.
+- Screenshots revealing the unique secret URI associated with the stored database connection string.
+- Screenshots of the updated App Service application settings, which include the Azure Key Vault reference syntax.
+- Screenshots displaying your app's settings that reference the stored secret URI for secure database connection string access.
+- A screenshot showing the list of Azure resources that correspond to the diagram.
+
+<hr>
+
 <div style="border: 1px solid #ccc; background-color: #eee;">
   <ul>
     <li>When presenting the results of the practical tasks, please <a href="../common/presenting-results/presenting-results.md">follow these guidelines</a>.</li>
-    <li>When you have completed the task, attach the screenshot to the "Result" field, and update the status to "Done."</li>
-    <li>Delete resources.</li>
+    <li>When you have completed the task, attach the file(s) to the "Result" field, provide a link to the updated Pet Store solution in a public Git repository, and update the status to "Done."</li>
+    <li>Delete unnecessary resources.</li>
   </ul>
 </div>
 <hr>

@@ -10,7 +10,7 @@ Now, for the final task, your goal is to bring all these individual pieces toget
 **Please complete the following task:**
 
 1. PetStore Web Apps are balanced with Traffic Manager.
-2. PetStore Web Apps should be available for auto-scaling.
+2. PetStore public API services should be available for auto-scaling.
 3. PetStore Web Apps should support deployment slots (at least one instance of Web).
 4. Pet and Product Services should use Azure SQL as a database.
 5. Order Service should use Cosmos DB as a database.
@@ -19,15 +19,35 @@ Now, for the final task, your goal is to bring all these individual pieces toget
 
 **Definition of Done:**
 
-1. All points above have been implemented.
-2. The following pieces of evidence are shared:
-   - A link to a public Git repository with the updated Pet Store solution.
-   - A screenshot of the list of Azure resources that reflects the diagram.
-   - A screenshot of the Azure Storage JSON file produced by the Order Items Reserver Function.
-   - A screenshot of the Order object in CosmosDB.
-   - A screenshot of the Azure B2C configuration.
+1. The PetStore Web Apps are balanced using Azure Traffic Manager.
+2. The PetStore Public API services are configured for auto-scaling.
+3. Deployment slots are set up for one instance of the PetStore Web App.
+4. The Pet and Product Services have successfully migrated to Azure Database for PostgreSQL.
+5. The Order Service has been updated to use Cosmos DB as its database.
+6. The Order Items Reserver Azure Function is able to create Reservation JSON files in Azure Blob Storage by communicating through the Service Bus.
+7. Error handling is implemented to send emails through Logic Apps when issues with creating Reservation JSON files are encountered.
+8. The PetStore Web App is secured with Azure B2C for authentication.
 
 <img src="images/scheme.png" width="700" style="margin: 20px 0; display: inline-block;"/>
+
+<hr>
+
+**Consider providing the following screenshots as evidence of your task execution:**
+
+- Screenshots displaying the configured Azure Traffic Manager.
+- Screenshots showing the auto-scaling settings for PetStore Public API Services in the Azure portal.
+- Screenshots depicting the deployment slots set up for one instance of the PetStore Web App.
+- Screenshots highlighting the connection between Azure Database for PostgreSQL and the Pet and Product Services.
+- Screenshots illustrating CosmosDB's connection to the Order Service.
+- Screenshots revealing the Order object within CosmosDB.
+- Screenshots showcasing the configuration of the Order Items Reserver Azure Function.
+- Screenshots detailing the Azure Service Bus configuration.
+- Screenshots capturing the creation of Reservation JSON files in Azure Blob Storage.
+- Screenshots documenting the error-handling implementation that sends emails through Logic Apps when issues arise.
+- Screenshots demonstrating the B2C authentication mechanism.a
+- A screenshot showing the list of Azure resources that correspond to the diagram.
+
+<hr>
 
 **Check your peer's task**
 
@@ -39,11 +59,13 @@ Now, for the final task, your goal is to bring all these individual pieces toget
 6. Locate the CloudX Associate program and identify the participant whose task you have reviewed.
 7. Provide a rating for the completed task.
 
+<hr>
+
 <div style="border: 1px solid #ccc; background-color: #eee;">
   <ul>
     <li>When presenting the results of the practical tasks, please <a href="../common/presenting-results/presenting-results.md">follow these guidelines</a>.</li>
-    <li>When you have completed the task, attach the screenshot to the "Result" field, and update the status to "Done."</li>
-    <li>Delete resources.</li>
+    <li>When you have completed the task, attach the file(s) to the "Result" field, provide a link to the updated Pet Store solution in a public Git repository, and update the status to "Done."</li>
+    <li>Delete unnecessary resources.</li>
   </ul>
 </div>
 <hr>

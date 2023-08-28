@@ -1,4 +1,4 @@
-# Module 3: App Service
+# Module 3: App Services
 
 ## Self-study materials
 
@@ -7,7 +7,7 @@
 ### Recommended
 
 - [Azure Administration: Implement and Manage Application Services](https://www.linkedin.com/learning/azure-administration-implement-and-manage-application-services) (video, ~2 hr 8 min)
-- [Deploy a website to Azure with Azure App Service](https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-app-service/) (text, ~4 hr 3 min)
+- [Deploy a website to Azure with Azure App Service](https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-app-service/) (article, ~4 hr 3 min)
 
 ### More details
 

@@ -12,6 +12,7 @@ Currently, both the PetStore Pet and Product Services utilize an in-memory stora
 
 1. Create an instance of Azure Database for PostgreSQL.
 2. Use it as a replacement for the current in-memory storage system.
+3. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Useful links:**
 
@@ -19,7 +20,7 @@ Currently, both the PetStore Pet and Product Services utilize an in-memory stora
 
 **Definition of Done:**
 
-1. The PetStore application has been modified and deployed to the Azure App Service.
+1. The PetStore application has been modified and deployed to the Azure App Services.
 2. An Azure Database for PostgreSQL instance is created.
 3. Tables are created.
 4. The PetStore's Pet and Product Services work correctly with Azure Database for PostgreSQL.
@@ -32,20 +33,42 @@ The PetStore application enables customers to place orders. However, currently, 
 
 1. Implement the Order Storage using CosmosDB.
 2. Ensure that a new record is generated in the Order Storage when a customer creates an order.
+3. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Definition of Done:**
 
-1. The PetStore application has been modified and deployed to the Azure App Service.
+1. The PetStore application has been modified and deployed to the Azure App Services.
 2. The CosmosDB database is created.
 3. Once a customer creates an order, the new record appears in the Order Storage.
 
 <img src="images/scheme.png" width="450" style="margin: 20px 0; display: inline-block;"/>
 
+<hr>
+
+**Consider providing the following screenshots as evidence of your task execution:**
+
+*Sub-task 1: Replace In-Memory Storage with Azure Database for PostgreSQL*
+
+- Screenshots displaying the configuration of the Azure Database for PostgreSQL.
+- Screenshots showcasing the modified code in the Pet and Product Services, illustrating the integration of PostgreSQL as the new storage system.
+- Screenshots of the PostgreSQL database schema, showing the created tables and their structure.
+
+*Sub-task 2: Implement Order Storage using CosmosDB*
+
+- Screenshots showing the configuration of CosmosDB.
+- Screenshots demonstrating the modified code in the Order Service, highlighting the integration of CosmosDB as the new storage system for orders.
+- Screenshots illustrating the application's functionality for placing an order.
+- Screenshots of the CosmosDB Data Explorer, displaying the newly created record in Order Storage.
+
+- A screenshot showing the list of Azure resources that correspond to the diagram.
+
+<hr>
+
 <div style="border: 1px solid #ccc; background-color: #eee;">
   <ul>
     <li>When presenting the results of the practical tasks, please <a href="../common/presenting-results/presenting-results.md">follow these guidelines</a>.</li>
-    <li>When you have completed the task, attach the screenshot to the "Result" field, and update the status to "Done."</li>
-    <li>Delete resources.</li>
+    <li>When you have completed the task, attach the file(s) to the "Result" field, provide a link to the updated Pet Store solution in a public Git repository, and update the status to "Done."</li>
+    <li>Delete unnecessary resources.</li>
   </ul>
 </div>
 <hr>

@@ -14,20 +14,36 @@ The PetStore application enables customers to add products to their shopping car
 4. This should happen every time a customer updates the shopping cart during the same session.
 5. The generated request should contain order details and the product list.
 6. Ensure that the file is overwritten for each user session whenever an update is made.
+7. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Definition of Done:**
 
-1. The PetStore application has been modified and deployed to the Azure App Service.
+1. The PetStore application has been modified and deployed to the Azure App Services.
 2. The OrderItemsReserver service has been developed and deployed as an Azure Function.
 3. Every time a customer updates the shopping cart within the same session, a new JSON file containing the order details appears in Blob Storage.
 
 <img src="images/scheme.png" width="600" style="margin: 20px 0; display: inline-block;"/>
 
+<hr>
+
+**Consider providing the following screenshots as evidence of your task execution:**
+
+- Screenshots showing the configuration of the OrderItemsReserver Azure Functions.
+- Screenshots displaying the configuration of Blob Storage.
+- Screenshots of the code within the PetStore application that establishes communication with OrderItemsReserver via an HTTP call.
+- Screenshots highlighting the code section responsible for uploading JSON files to Blob Storage.
+- Screenshots of the PetStore application's UI, focusing on the shopping cart section.
+- Screenshots illustrating the content and structure of a generated JSON file in Blob Storage.
+- Screenshots confirming that the JSON file is overwritten with each user session update.
+- A screenshot showing the list of Azure resources that correspond to the diagram.
+
+<hr>
+
 <div style="border: 1px solid #ccc; background-color: #eee;">
   <ul>
     <li>When presenting the results of the practical tasks, please <a href="../common/presenting-results/presenting-results.md">follow these guidelines</a>.</li>
-    <li>When you have completed the task, attach the screenshot to the "Result" field, and update the status to "Done."</li>
-    <li>Delete resources.</li>
+    <li>When you have completed the task, attach the file(s) to the "Result" field, provide a link to the updated Pet Store solution in a public Git repository, and update the status to "Done."</li>
+    <li>Delete unnecessary resources.</li>
   </ul>
 </div>
 <hr>
