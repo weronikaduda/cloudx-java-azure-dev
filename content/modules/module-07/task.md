@@ -9,22 +9,22 @@ Azure Key Vault is a service that offers centralized secrets management, grantin
 **Please complete the following task:**
 
 1. Create a Key Vault instance.
-2. Store the Azure Database for PostgreSQL connection string as a secret in the Key Vault.
-3. Enable managed identity for the App Service.
-4. Create a Key Vault access policy for the App Service managed identity.
-5. Obtain the unique secret URI associated with the stored database connection string.
-6. Update App Service's application settings to include the Azure Key Vault reference syntax.
-7. Reference the stored secret URI in your app's settings to securely access the database connection string.
+2. Store the Azure Database for PostgreSQL url, username, and password (or connection string) as secrets in the Key Vault.
+3. Enable managed identity for the two apps that use the Azure Database for PostgreSQL.
+4. Create a Key Vault access policy for the two apps that use the Azure Database for PostgreSQL.
+5. Obtain the unique secret URIs associated with the stored database secrets.
+6. Update the App Service's application settings to include the Azure Key Vault reference syntax.
+7. Reference the stored secret URIs in your apps' settings to securely access the database secrets.
 8. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Definition of Done:**
 
 1. Database credentials are not stored in configuration files or code.
-2. A Key Vault is created with a secret value assigned to the database connection string.
-3. Managed identity is enabled for the App Service.
-4. A Key Vault access policy is created with the correct permissions for the App Service managed identity.
-5. A new setting is added to the App Service's application settings, referencing the Key Vault secret using it unique URL.
-6. The App Service successfully utilizes the configuration setting that directs it to the Key Vault secret.
+2. A Key Vault is created with secret values assigned for the database url, username, and password (or connection string).
+3. Managed identity is enabled for the App Services.
+4. A Key Vault access policy is created with the appropriate permissions for the App Services managed identity.
+5. A new setting is added to the App Service's application settings, referencing the Key Vault secrets via their unique URLs.
+6. The App Service successfully utilizes the configuration settings to access the Key Vault secrets.
 
 <img src="images/scheme.png" width="550" style="margin: 20px 0; display: inline-block;"/>
 
@@ -33,12 +33,12 @@ Azure Key Vault is a service that offers centralized secrets management, grantin
 **Consider providing the following screenshots as evidence of your task execution:**
 
 - Screenshots displaying the created Key Vault instance.
-- Screenshots illustrating the DB connection string stored as a secret in the Key Vault.
-- Screenshots showing the enabled managed identity for the App Service.
-- Screenshots highlighting the created Key Vault access policy for the App Service's managed identity.
-- Screenshots revealing the unique secret URI associated with the stored database connection string.
+- Screenshots illustrating the database url, username, and password (or connection string) stored as secrets in the Key Vault.
+- Screenshots showing the enabled managed identity for the App Services.
+- Screenshots highlighting the created Key Vault access policy for the App Services' managed identity.
+- Screenshots revealing the unique secret URIs associated with the stored database url, username, and password (or connection string).
 - Screenshots of the updated App Service application settings, which include the Azure Key Vault reference syntax.
-- Screenshots displaying your app's settings that reference the stored secret URI for secure database connection string access.
+- Screenshots displaying your apps' settings that reference the stored secret URIs for database url, username, and password (or connection string).
 - A screenshot showing the list of Azure resources that correspond to the diagram.
 
 <hr>
