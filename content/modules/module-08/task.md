@@ -13,7 +13,7 @@ The PetStore application enables customers to add products to their shopping car
 3. The OrderItemsReserver should generate order requests and upload them as a JSON file to Blob Storage.
 4. This should happen every time a customer updates the shopping cart during the same session.
 5. The generated request should contain order details and the product list.
-6. Ensure that the file is overwritten for each user session whenever an update is made.
+6. Ensure that the file is overwritten for each user session whenever an update is made. Use the customer's session ID as the file name for that.
 7. Implement a retry policy for uploading to Blob Storage. In case of an unsuccessful attempt, the code will make up to 3 retry attempts.
 8. Implement a fallback scenario using Logic Apps. If the file cannot be created (storage is unavailable, an exception occurs during processing, etc.), an email should be sent with the order details.
 9. (Optional) Utilize Azure CLI to automate resource deployment.
