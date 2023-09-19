@@ -15,7 +15,7 @@ The PetStore application enables customers to add products to their shopping car
 5. The generated request should contain order details and the product list.
 6. Ensure that the file is overwritten for each user session whenever an update is made. Use the customer's session ID as the file name for that.
 7. Implement a retry policy for uploading to Blob Storage. In case of an unsuccessful attempt, the code will make up to 3 retry attempts.
-8. Implement a fallback scenario using Logic Apps. If the file fails to upload after 3 attempts (due to storage unavailability, exceptions during processing, etc.) an email containing the order details should be sent. Please use a dead-letter queue.
+8. Implement a fallback scenario using Logic Apps. If the file fails to upload after 3 attempts (due to storage unavailability, exceptions during processing, etc.) an email containing the order details should be sent. Please consider using of a dead-letter queue.
 9. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Definition of Done:**
