@@ -1,6 +1,6 @@
 # Module 2: Azure CLI. Introduction to Azure Container Registry and App Services
 
-# Azure CLI Commands Cheat Sheet for Module 1
+# Azure CLI Commands Cheat Sheet for Module 2
 
 ## Resource Groups
 
