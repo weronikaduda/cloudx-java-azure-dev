@@ -289,7 +289,7 @@ To deploy your Webs in the Azure portal:
 
 2. **Test autoscaling using k6 tool**
 
-- To test autoscaling, refer to the guide on testing with the k6 toolk: [Test autoscaling using k6 tool](../../../../../manuals/using-k6.md).
+- To test autoscaling, refer to the guide on testing with the k6 toolk: [Test autoscaling using k6 tool](../using-k6/using-k6.md).
 - Utilize Swagger to identify endpoints for testing. For example, employ the `/petstorepetservice/v2/pet/info` endpoint to evaluate PetService autoscaling.
 
   <img src="images/st-04-02-01.png" width="500" style="border: 1px solid #ccc; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); display: inline-block;"/>
