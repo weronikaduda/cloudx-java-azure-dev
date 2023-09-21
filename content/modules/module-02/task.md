@@ -1,4 +1,4 @@
-# Module 1: Azure CLI. Introduction to Azure Container Registry and App Services
+# Module 2: Azure CLI. Introduction to Azure Container Registry and App Services
 
 **Please complete the following task:**
 
