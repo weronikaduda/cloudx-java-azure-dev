@@ -9,9 +9,9 @@
 *Azure: Overview*
 
 - [Azure: Understanding the Big Picture](https://www.linkedin.com/learning/azure-understanding-the-big-picture-14915457) (video, ~3 hr 25 min)
-- [Microsoft Azure Fundamentals: Describe cloud concepts](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/) (text, ~52 min)
-- [Microsoft Azure Fundamentals: Describe Azure architecture and services](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/) (text, ~3 hr 23 min)
-- [Introduction to Azure virtual machines](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/) (text, ~1 hr 7 min)
+- [Microsoft Azure Fundamentals: Describe cloud concepts](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/) (article, ~52 min)
+- [Microsoft Azure Fundamentals: Describe Azure architecture and services](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/) (article, ~3 hr 23 min)
+- [Introduction to Azure virtual machines](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/) (article, ~1 hr 7 min)
 
 *Azure CLI*
 
