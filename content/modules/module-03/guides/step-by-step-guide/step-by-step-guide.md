@@ -17,8 +17,9 @@ Before you start, make sure you have the following in place:
 1. **Azure CLI**: Install the Azure Command-Line Interface (CLI) to interact with Azure services. Download it from: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 
 2. **Docker Tools**:
-    - **Windows Users**: Install Docker Desktop on your Windows machine. Download it from the official Docker website: https://www.docker.com/products/docker-desktop
-    - **macOS Users**: Install Docker Desktop on your macOS machine using the official Docker website.
+    - **Note**: EPAM has removed Docker Desktop from the standard software toolset, so it cannot be installed on your EPAM devices.
+    - **Windows Users**: Set up the Docker Engine using WSL2 following [this guide](../setting-up-docker-on-windows-using-wsl2/setting-up-docker-on-windows-using-wsl2.md). You can also explore other methods for setting up Docker as described [here](https://kb.epam.com/pages/releaseview.action?spaceKey=EPMSAM&title=Docker+Alternatives).
+    - **macOS Users**: Use any of the methods described [here](https://kb.epam.com/pages/releaseview.action?spaceKey=EPMSAM&title=Docker+Alternatives) to set up Docker.
     - **Linux Users**: Install the Docker Engine command-line tools on your Linux distribution. Refer to the Docker documentation for installation instructions based on your distribution.
 
 3. **Basic Docker Knowledge**: Understand basic Docker concepts, such as building images from Dockerfiles, tagging images, and pushing them to a container registry.
