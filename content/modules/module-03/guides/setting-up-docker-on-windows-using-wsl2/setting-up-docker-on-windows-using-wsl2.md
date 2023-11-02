@@ -16,7 +16,7 @@
     * [3.2 Check the Installation](#32-check-the-installation)
 <!-- TOC -->
 
-Navigating the world of Docker on Windows can be a challenge, particularly when you want to avoid Docker Desktop. However, with the power of the Windows Subsystem for Linux 2 (WSL2), it's possible to set up a Docker environment directly within your chosen Linux distribution, bypassing the need for Docker Desktop. This alternative approach offers several advantages, including improved performance. In this comprehensive guide, we'll walk you through installing WSL2, setting up the Docker Client and Server within the WSL2 environment, and automating the Docker Daemon's run at system startup for efficient operations.
+Navigating the world of Docker on Windows can be a challenge, particularly when you want to avoid Docker Desktop. However, with the power of the Windows Subsystem for Linux 2 (WSL2), it's possible to set up a Docker environment directly within your chosen Linux distribution, bypassing the need for Docker Desktop. This alternative approach offers several advantages, including improved performance. In this guide, we will walk you through the process of installing WSL2 and configuring Docker and Docker Compose on Ubuntu within the WSL2 environment.
 
 ## 1. Setup WSL2
 
