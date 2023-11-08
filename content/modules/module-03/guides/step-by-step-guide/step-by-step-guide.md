@@ -248,6 +248,10 @@ To deploy your Webs in the Azure portal:
 
   <img src="images/st-03-04-02.png" width="700" style="border: 1px solid #ccc; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); display: inline-block;"/>
 
+- Make sure you have set up `WEBSITES_PORT=8080` for each service.
+ 
+- Ensure that all URLs start with `https://`.
+
 - If you've followed all the steps correctly, you should be able to navigate between pages without any errors.
 
   <img src="images/st-03-04-03.gif" width="700" style="border: 1px solid #ccc; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); display: inline-block;"/>
