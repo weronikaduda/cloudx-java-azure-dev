@@ -19,44 +19,7 @@ The source code is available [here](../../../petstore).
 4. Verify the scalability by testing with tools like k6 to generate a load on the Public APIs.
 5. Set up deployment slots for the Web project (PetStoreApp).
 6. Configure Traffic Manager to direct traffic to the two Web App Services.
-
-### Optional sub-task: Leverage Azure CLI for automation
-
-Use Azure CLI to automate the deployment of Azure resources. By creating bash scripts that execute Azure CLI commands, you can streamline the process of setting up and configuring various Azure services. This approach is not only efficient but also minimizes manual errors.
-
-For instance, consider a scenario where you need to automate the creation of an Azure App Service Plan. A bash script can be written to encapsulate the necessary Azure CLI commands. Example script:
-
-```bash
-#!/bin/bash
-
-# Function to create an Azure App Service Plan
-function create_app_service_plan() {
-    local plan_location="$2"
-    local plan_name="$1-$2"
-
-    echo "Creating App Service Plan: $plan_name"
-    az appservice plan create \
-      --name "$plan_name" \
-      --resource-group "$RG_NAME" \
-      --location "$plan_location" \
-      --sku P1V2 \
-      --is-linux \
-      --tags "Project=Example" \
-      --output none
-}
-
-# Variables for Resource Group, Location, and App Service Plan name
-RG_NAME="YourResourceGroup"
-LOCATION="eastus"
-ASP_NAME="asp-example"
-
-# Calling the function to create the App Service Plan
-create_app_service_plan "$ASP_NAME" "$LOCATION"
-```
-
-In this script, you define a function `create_app_service_plan` that automates the creation of an App Service Plan in a specified location with given parameters. The script is adaptable and can be extended or modified for various other Azure resources.
-
-By incorporating such automation scripts into your workflow, you effectively reduce the time and effort required for resource deployment, enabling a more efficient management of Azure services.
+7. (Optional) Use Azure CLI in bash scripts to automate Azure resource deployments (look at the detailed description below).
 
 >**IMPORTANT:** Avoid using Kubernetes for this course, as it is not included in the curriculum and could potentially lead to unnecessary expenses.
 
@@ -121,6 +84,46 @@ By incorporating such automation scripts into your workflow, you effectively red
       - Testing of main application features through the Traffic Manager URL.
 
 7. A screenshot showing the list of Azure resources that correspond to the diagram.
+
+<hr>
+
+### Optional sub-task: Use Azure CLI for automation
+
+Use Azure CLI to automate the deployment of Azure resources. By creating bash scripts that execute Azure CLI commands, you can streamline the process of setting up and configuring various Azure services. This approach is not only efficient but also minimizes manual errors.
+
+For instance, consider a scenario where you need to automate the creation of an Azure App Service Plan. A bash script can be written to encapsulate the necessary Azure CLI commands. Example script:
+
+```bash
+#!/bin/bash
+
+# Function to create an Azure App Service Plan
+function create_app_service_plan() {
+    local plan_location="$2"
+    local plan_name="$1-$2"
+
+    echo "Creating App Service Plan: $plan_name"
+    az appservice plan create \
+      --name "$plan_name" \
+      --resource-group "$RG_NAME" \
+      --location "$plan_location" \
+      --sku P1V2 \
+      --is-linux \
+      --tags "Project=Example" \
+      --output none
+}
+
+# Variables for Resource Group, Location, and App Service Plan name
+RG_NAME="YourResourceGroup"
+LOCATION="eastus"
+ASP_NAME="asp-example"
+
+# Calling the function to create the App Service Plan
+create_app_service_plan "$ASP_NAME" "$LOCATION"
+```
+
+In this script, you define a function `create_app_service_plan` that automates the creation of an App Service Plan in a specified location with given parameters. The script is adaptable and can be extended or modified for various other Azure resources.
+
+By incorporating such automation scripts into your workflow, you effectively reduce the time and effort required for resource deployment, enabling a more efficient management of Azure services.
 
 <hr>
 
