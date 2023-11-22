@@ -8,7 +8,7 @@ The PetStore application enables customers to add products to their shopping car
 
 **Please complete the following task:**
 
-1. Implement a new OrderItemsReserver service, utilizing Azure Functions.
+1. Implement a new OrderItemsReserver service, utilizing Azure Functions, with Java as the runtime and container deployment.
 2. Establish communication between the PetStore application and the OrderItemsReserver through an HTTP call.
 3. The OrderItemsReserver should generate order requests and upload them as a JSON file to Blob Storage.
 4. This should happen every time a customer updates the shopping cart during the same session.
@@ -19,7 +19,7 @@ The PetStore application enables customers to add products to their shopping car
 **Definition of Done:**
 
 1. The PetStore application has been modified and deployed to the Azure App Services.
-2. The OrderItemsReserver service has been developed and deployed as an Azure Function.
+2. The OrderItemsReserver service has been developed and deployed as an Azure Function, with Java as the runtime and container deployment.
 3. Every time a customer updates the shopping cart within the same session, a new JSON file containing the order details appears in Blob Storage.
 
 <img src="images/scheme.png" width="600" style="margin: 20px 0; display: inline-block;"/>
