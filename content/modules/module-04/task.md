@@ -7,7 +7,7 @@ The source code is available [here](../../../petstore).
 **Please complete the following task:**
 
 1. Create an instance of the Application Insights service.
-2. Enable the connection to Application Insights for the PetStore services using the Spring Boot starter and deploy the services.
+2. Enable the connection to Application Insights for the PetStore services and deploy the services.
 3. Browse the Pet Store website: add several products to the shopping cart.
 4. In Application Insights, check the following:
    - the Overview tab for incoming requests and failures
@@ -45,7 +45,7 @@ throw new Exception("Cannot move further");
    - Screenshot showing the creation of an Application Insights instance in the Azure portal.
 
 2. *Enable Connection to Application Insights*
-   - Screenshot demonstrating integration with Application Insights using the Spring Boot starter.
+   - Screenshot demonstrating integration with Application Insights.
    - Screenshots of the deployed PetStore services with enabled Application Insights connections.
 
 3. *Browse the Pet Store Website*
