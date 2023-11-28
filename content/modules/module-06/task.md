@@ -31,14 +31,14 @@ The PetStore application enables customers to place orders. However, currently, 
 
 **Please complete the following task:**
 
-1. Implement the Order Storage using CosmosDB.
+1. Implement the Order Storage using CosmosDB (create an Azure Cosmos DB account, an SQL database, and a container)
 2. Ensure that a new record is generated in the Order Storage when a customer creates an order.
 3. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Definition of Done:**
 
 1. The PetStore application has been modified and deployed to the Azure App Services.
-2. The CosmosDB database is created.
+2. Azure Cosmos DB account, SQL database, and a specific container within the database have been created.
 3. Once a customer creates an order, the new record appears in the Order Storage.
 
 <img src="images/scheme.png" width="450" style="margin: 20px 0; display: inline-block;"/>
