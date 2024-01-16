@@ -19,7 +19,8 @@ The source code is available [here](../../../petstore).
 2. PetStore App has been registered as an application in Azure B2C.
 3. User flows have been configured for the PetStore App application.
 4. PetStore App Service configuration has been configured to use Azure B2C.
-5. Users can now log in to the PetStore App via Azure B2C authentication.
+5. Localhost has not been used as the sole redirect URI, reply URL, or logout success URL.
+6. Users can now log in to the PetStore App via Azure B2C authentication.
 
 <img src="images/scheme.png" width="500" style="margin: 20px 0; display: inline-block;"/>
 
@@ -28,7 +29,7 @@ The source code is available [here](../../../petstore).
 **Consider providing the following screenshots as evidence of your task execution:**
 
 - Screenshots displaying the configured Azure B2C identity provider in the Azure portal.
-- Screenshots showing the registration of the PetStore App as an Azure B2C application.
+- Screenshots showing the registration of the PetStore App as an Azure B2C application, including App Registrations, Authentication (with Redirect URIs), Certificates & Secrets, and other pages.
 - Screenshots depicting the defined and set up user flows (such as sign-up and sign-in) for the PetStore App within Azure B2C.
 - Screenshots highlighting the PetStore App Service configuration to utilize Azure B2C.
 - Screenshots illustrating successful user logins to the PetStore App via Azure B2C authentication.
