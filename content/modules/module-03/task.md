@@ -14,11 +14,11 @@ The source code is available [here](../../../petstore).
 1. Deploy on Azure App Services using Docker deployment from Azure Container Registry:
    - Web (PetStoreApp) in two different regions
    - Public API Services (PetService, ProductService, and OrderService) in one region
-2. Update the configuration of the Web (PetStoreApp) to point to the URLs of the respective Public APIs.
+2. Set environment variables to enable communication between the Web (PetStoreApp) and the Public API Services.
 3. Configure the Public API Services (PetService, ProductService, OrderService) for auto-scaling based on CPU load increase.
 4. Verify the scalability by testing with tools like k6 to generate a load on the Public APIs.
-5. Set up deployment slots for the Web project (PetStoreApp).
-6. Configure Traffic Manager to direct traffic to the two Web App Services.
+5. Set up deployment slots for the Web (PetStoreApp).
+6. Configure Traffic Manager to direct traffic to the two Webs (PetStoreApps).
 7. (Optional) Use Azure CLI in bash scripts to automate Azure resource deployments (look at the detailed description below).
 
 >**IMPORTANT:** Avoid using Kubernetes for this course, as it is not included in the curriculum and could potentially lead to unnecessary expenses.
@@ -32,11 +32,11 @@ The source code is available [here](../../../petstore).
 
 1. Web deployed in two separate regions using Docker deployment from Azure Container Registry.
 2. Public API Services deployed in one region using Docker deployment from Azure Container Registry.
-3. Web app configuration is updated to link correctly with Public API URLs.
-4. Deployment slots for the Web project in one of the regions are created.
+3. Environment variables are set to enable communication between the Web (PetStoreApp) and the Public API Services.
+4. Deployment slots for the Web (PetStoreApp) in one of the regions are created.
 5. Public APIs are set up to scale automatically based on the CPU load increases.
 6. Autoscaling is tested, potentially with k6 tool.
-7. The Traffic Manager directs traffic between both Web App instances.
+7. The Traffic Manager directs traffic between both Web App instances (PetStoreApps).
 8. Users can access the application via the Traffic Manager URL.
 
 <img src="images/scheme.png" width="450" style="margin: 20px 0; display: inline-block;"/>
@@ -64,8 +64,9 @@ The source code is available [here](../../../petstore).
       - Verification of autoscaling settings and rules.
 
 4. *Test Autoscaling using k6 Tool*
-   - Screenshots of the k6 tool in use for testing autoscaling.
-   - Screenshots of Swagger endpoints utilized for testing autoscaling.
+    - Screenshots of Swagger endpoints utilized for testing autoscaling.
+    - Screenshots of the k6 tool in use for testing autoscaling.
+    - Screenshots of the results, particularly showing the scaling behavior under load.
 
 5. *Set Up Deployment Slots for PetStoreApp*
    - Screenshots of the Azure portal:
@@ -81,7 +82,8 @@ The source code is available [here](../../../petstore).
       - Addition of endpoints representing different PetStoreApp instances.
       - Configuration of health checks for endpoint availability.
       - Use of Traffic Manager URL to access the application.
-      - Testing of main application features through the Traffic Manager URL.
+   - Screenshots or GIF-file:
+      - Testing of the main application features through the Traffic Manager URL.
 
 7. A screenshot showing the list of Azure resources that correspond to the diagram.
 
