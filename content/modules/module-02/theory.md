@@ -7,14 +7,12 @@
 ### Recommended
 
 *Azure: Overview*
-
 - 🎥 [Azure: Understanding the Big Picture](https://www.linkedin.com/learning/azure-understanding-the-big-picture-14915457): Gain a bird's-eye view of Microsoft Azure's features and services (~3h 25m)
 - 📄 [Microsoft Azure Fundamentals: Describe cloud concepts](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/): Explore the fundamentals of cloud computing in Azure's context (~52m)
 - 📄 [Microsoft Azure Fundamentals: Describe Azure architecture and services](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/): Dive into Azure's architecture and the various services it offers (~3h 23m)
 - 📄 [Introduction to Azure virtual machines](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/): Learn how to set up and manage Azure virtual machines (~1h 7m)
 
 *Azure CLI*
-
 - 📄 [What is the Azure CLI?](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli): An overview of Azure Command-Line Interface and its capabilities (10m)
 - 📄 [How to install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli): Step-by-step guidance on installing the Azure CLI on various platforms (15m)
 - 📄 [Get started with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli): An introductory tutorial to basic commands and operations with the Azure CLI (30m)
@@ -24,7 +22,6 @@
 ### More Details
 
 *Azure CLI*
-
 - 📄 [Azure CLI onboarding cheat sheet](https://learn.microsoft.com/en-us/cli/azure/cheat-sheet-onboarding): A quick reference to essential Azure CLI commands and workflows (15m)
 - 📄 [Azure CLI command reference](https://docs.microsoft.com/en-us/cli/azure/reference-index): An extensive reference document of Azure CLI commands (60m)
 - 📄 [Azure CLI Interactive Mode](https://docs.microsoft.com/en-us/cli/azure/interactive-azure-cli): Learn about the interactive shell feature of the Azure CLI for an enhanced experience (20m)
