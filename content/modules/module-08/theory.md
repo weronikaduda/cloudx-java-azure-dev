@@ -7,7 +7,7 @@
 ### Recommended
 
 *Service Bus, Event Hub, Event Grid*
-- 🎥 [Azure Service Bus](https://www.linkedin.com/learning/azure-service-bus): Video tutorial on using Azure Service Bus for message brokering in cloud applications (~ 46m)
+- 🎥 [Azure Service Bus](https://www.linkedin.com/learning/azure-service-bus): Video tutorial on using Azure Service Bus for message brokering in cloud applications (~46m)
 - 🎥 [Azure Event Grid](https://www.linkedin.com/learning/azure-event-grid): Learn how to use Azure Event Grid for event-driven computing with this comprehensive video (~38m)
 - 📄 [Choose a messaging model in Azure to loosely connect your services](https://docs.microsoft.com/en-us/learn/modules/choose-a-messaging-model-in-azure-to-connect-your-services/): This article walks you through different messaging models for service communication in Azure (~45m)
 - 📄 [Implement message-based communication workflows with Azure Service Bus](https://docs.microsoft.com/en-us/learn/modules/implement-message-workflows-with-service-bus/): Module for implementing complex messaging workflows using Azure Service Bus (~54m)
