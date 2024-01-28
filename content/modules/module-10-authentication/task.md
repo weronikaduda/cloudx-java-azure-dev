@@ -8,21 +8,21 @@ The source code is available [here](../../../petstore).
 
 **Please complete the following task:**
 
-1. Configure Azure B2C identity provider.
-2. Register the PetStore App as an Azure B2C application.
-3. Define and set up user flows (like sign-up and sign-in) for the PetStore App within Azure B2C.
-4. Configure the PetStore App to use Azure B2C.
-5. Ensure that users can successfully log in to the PetStore App using Azure B2C authentication.
+1. Configure Microsoft Entra's Azure Active Directory B2C (Azure AD B2C) as an identity provider.
+2. Register the PetStore App as an Azure AD B2C application.
+3. Define and set up user flows (like sign-up and sign-in) for the PetStore App within Azure AD B2C.
+4. Configure the PetStore App to use Azure AD B2C.
+5. Ensure that users can successfully log in to the PetStore App using Azure AD B2C authentication.
 6. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Definition of Done:**
 
-1. Azure B2C identity provider has been configured.
-2. PetStore App has been registered as an application in Azure B2C.
+1. Azure AD B2C identity provider has been configured.
+2. PetStore App has been registered as an application in Azure AD B2C.
 3. User flows have been configured for the PetStore App application.
-4. PetStore App configuration has been configured to use Azure B2C.
+4. PetStore App configuration has been configured to use Azure AD B2C.
 5. Localhost has not been used as the sole redirect URI, reply URL, or logout success URL.
-6. Users can now log in to the PetStore App via Azure B2C authentication.
+6. Users can now log in to the PetStore App via Azure AD B2C authentication.
 
 <img src="images/scheme.png" width="500" style="margin: 20px 0; display: inline-block;"/>
 
@@ -30,11 +30,11 @@ The source code is available [here](../../../petstore).
 
 **Consider providing the following screenshots as evidence of your task execution:**
 
-- Screenshots displaying the configured Azure B2C identity provider in the Azure portal.
-- Screenshots showing the registration of the PetStore App as an Azure B2C application, including App Registrations, Authentication (with Redirect URIs), Certificates & Secrets, and other pages.
-- Screenshots depicting the defined and set up user flows (such as sign-up and sign-in) for the PetStore App within Azure B2C.
-- Screenshots highlighting the PetStore App configuration to utilize Azure B2C.
-- Screenshots illustrating successful user logins to the PetStore App via Azure B2C authentication.
+- Screenshots displaying the configured Azure AD B2C identity provider in the Azure portal.
+- Screenshots showing the registration of the PetStore App as an Azure AD B2C application, including App Registrations, Authentication (with Redirect URIs), Certificates & Secrets, and other pages.
+- Screenshots depicting the defined and set up user flows (such as sign-up and sign-in) for the PetStore App within Azure AD B2C.
+- Screenshots highlighting the PetStore App configuration to utilize Azure AD B2C.
+- Screenshots illustrating successful user logins to the PetStore App via Azure AD B2C authentication.
 
 <hr>
 

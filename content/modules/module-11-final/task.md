@@ -16,7 +16,7 @@ Now, for the final task, your goal is to bring all these individual pieces toget
 3. Pet and Product Services should use Azure SQL as a database.
 4. Order Service should use Cosmos DB as a database.
 5. Order Items Reserver function should be able to create Reservation JSON files in Azure Blob Storage by communicating through Service Bus and handle errors by sending the email through Logic Apps.
-6. PetStore Web App is protected by Azure B2C for authentication.
+6. PetStore Web App is protected by Azure AD B2C for authentication.
 
 **Definition of Done:**
 
@@ -26,7 +26,7 @@ Now, for the final task, your goal is to bring all these individual pieces toget
 4. The Order Service has been updated to use Cosmos DB as its database.
 5. The Order Items Reserver Azure Function is able to create Reservation JSON files in Azure Blob Storage by communicating through the Service Bus.
 6. Error handling is implemented to send emails through Logic Apps when issues with creating Reservation JSON files are encountered.
-7. The PetStore Web App is secured with Azure B2C for authentication.
+7. The PetStore Web App is secured with Azure AD B2C for authentication.
 
 <img src="images/scheme.png" width="700" style="margin: 20px 0; display: inline-block;"/>
 
@@ -43,7 +43,7 @@ Now, for the final task, your goal is to bring all these individual pieces toget
 - Screenshots detailing the Azure Service Bus configuration.
 - Screenshots capturing the creation of Reservation JSON files in Azure Blob Storage.
 - Screenshots documenting the error-handling implementation that sends emails through Logic Apps when issues arise.
-- Screenshots demonstrating the B2C authentication mechanism.a
+- Screenshots demonstrating the B2C authentication mechanism.
 - A screenshot showing the list of Azure resources that correspond to the diagram.
 
 <hr>
