@@ -41,7 +41,7 @@ You will learn more about the Azure resources from this task in the next module.
 
 1. Set four variables:
   - two for the permanent resource group:
-    - name "permanent_rgk,
+    - name "permanent_rg,
     - location East US.
   - two for the temporary resource group:
     - name "temporary_rg",
