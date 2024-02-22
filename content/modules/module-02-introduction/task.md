@@ -39,9 +39,13 @@ You will learn more about the Azure resources from this task in the next module.
 
 *Refer to the [Azure CLI Commands Cheat Sheet](cheat-sheet.md) if necessary*
 
-1. Set 4 variables:
-  - For the permanent resource group: name "permanent_rg", location East US.
-  - For the temporary resource group: name "temporary_rg", location West Europe.
+1. Set four variables:
+  - two for the permanent resource group:
+    - name "permanent_rgk,
+    - location East US.
+  - two for the temporary resource group:
+    - name "temporary_rg",
+    - location West Europe.
 
 2. Use the `az group create` command along with the variables to create a permanent and a temporary resource groups.
 
