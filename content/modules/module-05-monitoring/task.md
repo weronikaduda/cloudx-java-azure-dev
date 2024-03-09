@@ -17,9 +17,9 @@ The source code is available [here](../../../petstore).
    - transaction search
    - performance metrics
 5. Implement several changes in the code:
-   - in `PetStoreServiceImpl.getProducts()`, add a custom metric (using TelemetryClient) to store information about who is making the request (i.e., username and session)
-   - add logging to `PetStoreServiceImpl.getProducts()` for the number of items that were returned to user
-   - deploy the services to Azure App Services or Azure Container Apps 
+   - in `PetStoreServiceImpl.getProducts()`, add a custom event or log (using TelemetryClient) to store information about who is making the request (i.e., username and session)
+   - add logging to `PetStoreServiceImpl.getProducts()` for the number of items that were returned to the user. Add this quantity as a custom metric
+   - deploy the services to Azure App Services or Azure Container Apps
 6. Examine the logs and custom events.
 7. Use a Kusto query to filter all logs by the current session ID (note: this can be found at the bottom left corner of the home page).
 8. Introduce an error in `PetStoreServiceImpl.getProducts()` by adding the line:
