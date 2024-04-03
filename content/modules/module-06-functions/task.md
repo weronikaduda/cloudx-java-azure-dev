@@ -15,7 +15,7 @@ The PetStore application enables customers to add products to their shopping car
 3. The OrderItemsReserver should generate order requests and upload them as a JSON file to Blob Storage.
 4. This should happen every time a customer updates the shopping cart during the same session.
 5. The generated request should contain order details and the product list.
-6. Ensure that the file is overwritten for each user session whenever an update is made.
+6. Ensure that the file is overwritten for each user session whenever an update is made (use session ID for file naming).
 7. (Optional) Utilize Azure CLI to automate resource deployment.
 
 **Definition of Done:**
