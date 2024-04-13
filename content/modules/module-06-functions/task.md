@@ -31,6 +31,7 @@ The PetStore application enables customers to add products to their shopping car
 **Consider providing the following screenshots as evidence of your task execution:**
 
 - Screenshots showing the configuration of the OrderItemsReserver Azure Functions.
+- Screenshots verifying that the OrderItemsReserver function has been deployed using container deployment configurations.
 - Screenshots displaying the configuration of Blob Storage.
 - Screenshots of the code within the PetStore application that establishes communication with OrderItemsReserver via an HTTP call.
 - Screenshots highlighting the code section responsible for uploading JSON files to Blob Storage.

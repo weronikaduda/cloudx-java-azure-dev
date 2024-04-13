@@ -37,6 +37,7 @@ The PetStore application enables customers to add products to their shopping car
 - Screenshots displaying the created Azure Service Bus instance in the Azure portal.
 - Screenshots showcasing the modified code in the PetStore application, highlighting the integration of Azure Service Bus communication.
 - Screenshots illustrating the updated code in the OrderItemsReserver service, demonstrating the transition from HTTP Trigger to Service Bus Trigger in Azure Functions.
+- Screenshots verifying that the OrderItemsReserver function has been deployed using container deployment configurations.
 - Screenshots of the Logic Apps configuration, set up to send an email with order details as a fallback scenario.
 - Screenshots showing the JSON files generated and uploaded to Blob Storage after changes to the shopping cart during a user session.
 - Screenshots of the Blob Storage container, revealing the updated JSON files for each user session.
