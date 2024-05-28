@@ -334,6 +334,7 @@ In your next tasks, you can categorize your Azure resources by using a *permanen
 
 **Temporary resource group examples (remove immediately after use):**
 - Azure App Services with App Service Plans and Web Apps
+- Azure Container Apps
 - Traffic Manager
 - Azure Functions
 - Azure Blob Storage
@@ -377,7 +378,7 @@ Using this approach, you can optimize your Azure resource management, ensuring t
 <div style="border: 1px solid #ccc; background-color: #eee;">
   <ul>
     <li>When presenting the results of the practical tasks, please <a href="../common/presenting-results/presenting-results.md">follow these guidelines</a>.</li>
-    <li>When you have completed the task, attach the file(s) to the "Result" field, and update the status to "Done."</li>
+    <li>When you have completed the task, attach the file(s) to the "Answer" field, and click "Submit."</li>
     <li>Delete unnecessary resources.</li>
   </ul>
 </div>
