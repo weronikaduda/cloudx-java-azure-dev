@@ -17,7 +17,7 @@
 - 📄 [How to install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli): Step-by-step guidance on installing the Azure CLI on various platforms (15m)
 - 📄 [Get started with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli): An introductory tutorial to basic commands and operations with the Azure CLI (30m)
 - 📄 [Tips for using the Azure CLI successfully](https://learn.microsoft.com/en-us/cli/azure/use-cli-effectively?tabs=bash%2Cbash2): Practical advice to maximize efficiency when using the Azure CLI (20m)
-- 📄 [Learn to use Bash with the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/azure-cli-learn-bash): How to integrate Bash scripting with Azure CLI for better automation and control (40m)
+- 📄 [How-to use the Azure CLI in a Bash scripting language](https://learn.microsoft.com/en-us/cli/azure/azure-cli-learn-bash): How to integrate Bash scripting with Azure CLI for better automation and control (40m)
 
 ### More Details
 
