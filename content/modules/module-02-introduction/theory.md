@@ -18,11 +18,9 @@
 - 📄 [Tips for using the Azure CLI successfully](https://learn.microsoft.com/en-us/cli/azure/use-cli-effectively?tabs=bash%2Cbash2): Practical advice to maximize efficiency when using the Azure CLI
 - 📄 [How-to use the Azure CLI in a Bash scripting language](https://learn.microsoft.com/en-us/cli/azure/azure-cli-learn-bash): How to integrate Bash scripting with Azure CLI for better automation and control
 
-### More Details
+### Additional Resources
 
 *Azure CLI*
-- 📄 [Azure CLI onboarding cheat sheet](https://learn.microsoft.com/en-us/cli/azure/cheat-sheet-onboarding): A quick reference to essential Azure CLI commands and workflows
+- 🛠️ [Azure CLI onboarding cheat sheet](https://learn.microsoft.com/en-us/cli/azure/cheat-sheet-onboarding): A quick reference to essential Azure CLI commands and workflows
 - 📄 [Azure CLI command reference](https://docs.microsoft.com/en-us/cli/azure/reference-index): An extensive reference document of Azure CLI commands
-- 📄 [Azure CLI interactive mode](https://docs.microsoft.com/en-us/cli/azure/interactive-azure-cli): Learn about the interactive shell feature of the Azure CLI for an enhanced experience
-- 📄 [How to update the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/update-azure-cli): Instructions for updating your Azure CLI to the latest version
-- 📄 [Azure CLI sample scripts](https://learn.microsoft.com/en-us/cli/azure/samples-index?tabs=service): Peruse a range of sample scripts for performing various tasks in Azure with the CLI
+- 🛠️ [Azure CLI sample scripts](https://learn.microsoft.com/en-us/cli/azure/samples-index?tabs=service): Peruse a range of sample scripts for performing various tasks in Azure with the CLI
