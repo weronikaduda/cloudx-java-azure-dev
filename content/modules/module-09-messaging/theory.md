@@ -22,6 +22,8 @@
 
 ### Additional Resources
 
+- 🎥 [Azure Service Bus](https://www.linkedin.com/learning/azure-service-bus-19192316): Video tutorial on using Azure Service Bus for message brokering in cloud applications (~44m)
+- 🎥 [Introduction to Azure Event Grid](https://www.linkedin.com/learning/introduction-to-azure-event-grid): Learn how to use Azure Event Grid for event-driven computing with this comprehensive video (~52m)
 - 📚 [Overview of Service Bus dead-letter queues](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues): Handling and monitoring failed messages
 - 🛠️ [Retry pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry): Best practices for retrying failed storage operations
 - 📚 [Create and manage Service Bus using Azure CLI](https://learn.microsoft.com/en-us/cli/azure/servicebus): Automate the setup of Service Bus queues and topics

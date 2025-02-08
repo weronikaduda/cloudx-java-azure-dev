@@ -26,5 +26,6 @@
 
 ### Additional Resources
 
+- 🎥 [Microsoft Azure: Identity and Access Management](https://www.linkedin.com/learning/microsoft-azure-identity-and-access-management-23388392): Video series focusing on identity and access management within Azure, relevant to Microsoft Entra (~1h 51m)
 - 📚 [Microsoft Entra authentication documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/): Comprehensive documentation covering Microsoft Entra authentication services.  
 
