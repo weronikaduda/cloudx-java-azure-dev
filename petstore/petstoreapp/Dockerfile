@@ -1,19 +1,11 @@
-#
-# Build stage
-#
-FROM maven:3.8.4-openjdk-17-slim AS build
-WORKDIR /build
+FROM maven:3.9.9-eclipse-temurin-17-alpine AS build
+WORKDIR /app
 COPY pom.xml .
+RUN mvn dependency:go-offline
 COPY src ./src
 RUN mvn clean package
 
-#
-# Package stage
-#
-FROM mcr.microsoft.com/openjdk/jdk:17-ubuntu
-RUN apt-get update -y && apt-get install -y --no-install-recommends openssh-server 
-RUN mkdir -p /run/sshd && echo "root:Docker!" | chpasswd
-COPY sshd_config /etc/ssh/ 
-EXPOSE 2222 8080
-COPY --from=build /build/target/*.jar /app/petstoreapp.jar
-ENTRYPOINT ["/bin/bash", "-c", "/usr/sbin/sshd && java -jar /app/petstoreapp.jar"]
+FROM eclipse-temurin:17-jre-alpine
+WORKDIR /app
+COPY --from=build /app/target/*.jar app.jar
+CMD ["java", "-jar", "app.jar"]

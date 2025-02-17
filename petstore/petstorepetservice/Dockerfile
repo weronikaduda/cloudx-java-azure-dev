@@ -1,16 +1,11 @@
-#
-# Build stage
-#
-FROM maven:3.8.4-openjdk-17-slim AS build
-WORKDIR /build
+FROM maven:3.9.9-eclipse-temurin-17-alpine AS build
+WORKDIR /app
 COPY pom.xml .
+RUN mvn dependency:go-offline
 COPY src ./src
 RUN mvn clean package
 
-#
-# Package stage
-#
-FROM openjdk:17-slim
-COPY --from=build /build/target/*.jar /app/petstorepetservice.jar
-EXPOSE 8080
-ENTRYPOINT ["java","-jar","/app/petstorepetservice.jar"]
+FROM eclipse-temurin:17-jre-alpine
+WORKDIR /app
+COPY --from=build /app/target/*.jar app.jar
+CMD ["java", "-jar", "app.jar"]
