@@ -234,6 +234,7 @@ To deploy your Webs in the Azure portal:
 
   <img src="images/st-03-03-01.png" width="800" style="border: 1px solid #ccc; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); display: inline-block;"/>
 
+> **NOTE**: If you encounter an error at this stage, please make sure that your Dockerfile contains the `EXPOSE 8080` instruction or set the environment variable `WEBSITES_PORT=8080` (see section 4 below).
 
 4. **Configure environment variables**
 
